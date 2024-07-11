@@ -1,0 +1,49 @@
+Run options: --seed 58882
+
+# Running:
+
+..Running Measure in Directory: C:/Users/gflechas/AppData/Local/Temp/d20240701-3060-1gjdz7h/resources/measures/export_model_with_measure_changes
+Parent Model Path: C:/Users/gflechas/AppData/Local/Temp/d20240701-3060-1gjdz7h/parent_model.osm
+[openstudio.measure.OSRunner] <1> Cannot find current Workflow Step
+Current Directory: C:/Users/gflechas/AppData/Local/Temp/d20240701-3060-1gjdz7h/resources/measures/export_model_with_measure_changes
+**MEASURE APPLICABILITY**
+1 = Fail
+**INITIAL CONDITION**
+**FINAL CONDITION**
+**INFO MESSAGES**
+Parent directory is C:/Users/gflechas/OneDrive - Colorado School of Mines
+**WARNING MESSAGES**
+**ERROR MESSAGES**
+No parent model file found in the expected directory.
+***Machine-Readable Attributes**
+[
+{
+   "name" : "custom_name",
+   "value" : ""
+},{
+   "name" : "destination_dir",
+   "value" : "Reports Directory"
+},{
+   "name" : "custom_path",
+   "value" : ""
+},{
+   "name" : "use_versioning",
+   "value" : false
+},{
+   "name" : "version_suffix",
+   "value" : "_v"
+}
+]
+***Files Generated**
+
+
+F.
+
+Finished in 0.029923s, 133.6751 runs/s, 902.3069 assertions/s.
+
+  1) Failure:
+ExportModelWithMeasureChangesTest#test_measure_with_debug_output [export_model_with_measure_changes_test.rb:137]:
+Expected: "Success"
+  Actual: "Fail"
+
+4 runs, 27 assertions, 1 failures, 0 errors, 0 skips
